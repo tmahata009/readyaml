@@ -26,13 +26,14 @@ class C(A,B):
 
 
     def feature5(self):
-        print("feature3 is working")
+        print("feature5 is working")
+        super().feature3()
 
     def feature6(self):
-        print("feature4 is working")
+        print("feature6 is working")
 
 
 
 c = C()
 
-c.feature1()
+c.feature5()
